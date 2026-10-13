@@ -1,0 +1,50 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 0 15px;
+    line-height: 1.5;
+}
+
+
+
+.header h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #b5b5b5;
+    margin-bottom: 25px;
+}
+
+
+.news-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-img {
+    float: left;
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+.news-content p {
+    font-size: 19px;
+    text-align: justify;
+    margin: 0;
+}

@@ -1,0 +1,29 @@
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Tự động chia 4 ảnh trên 1 hàng */
+    gap: 15px;                              /* Khoảng cách giữa các ô ảnh */
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.card {
+    border: 9px solid #FFE600; /* Viền ngoài màu vàng */
+    border-radius: 12px;       /* Bo tròn góc viền */
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgb(2, 0, 0); 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.card.active, 
+.card:hover {
+    border-color: #00FFFF;
+    box-shadow: 0 0 12px #00FFFF, 0 0 15px rgba(255, 105, 180, 0.5);
+}
